@@ -1,0 +1,130 @@
+body{
+    background-color: #7fa0afa1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h2{
+    color: #2b2828;
+    text-align: center;
+}
+header{
+    background-color: #3c57cf;
+    color: white;
+    padding: 10px ;
+    text-align: center;
+    border-radius: 10px;    
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;    
+}
+header p{
+    margin: 0;
+    font-size: 1em;
+    
+}
+header h1{
+    margin: 0;
+    font-size: 2.1em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+header h2{
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(243, 236, 236);   
+}
+nav{
+    background-color: #5b76f1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    color: white;
+    display: inline-block;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 0.92em;    
+}nav ul li a:hover{
+    background-color: #3c57cf;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.foto{
+    position: relative;
+    float: right;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+section{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+section:hover{
+    transform: scale(1.02);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table th, table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+table th{
+    background-color: #3c57cf;
+    color: white;
+}
+table tr:nth-child(even){
+    background-color: #eee6e6;
+}
+#perfil {
+    background-color: #e3f2fd; 
+}  
+#experiencia {
+    background-color: #fff3e0; 
+} 
+#formacion {
+    background-color: #ede7f6; 
+} 
+#idiomas {
+    background-color: #c1c2c5; 
+} 
+#habilidades {
+    background-color: #fce4ec; 
+}
