@@ -87,7 +87,7 @@ nav ul li a{
 
 section{
     background-color: #f4f4f4;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     margin: 20px 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -95,6 +95,10 @@ section{
 }
 section:hover{
     transform: scale(1.02);
+}
+section p{
+    margin: 0;
+    font-size: 1.1em;
 }
 table{
     width: 100%;
@@ -115,7 +119,10 @@ table tr:nth-child(even){
 }
 #perfil {
     background-color: #e3f2fd; 
-}  
+} 
+#perfil p{
+    margin: 0 20px 10px;
+} 
 #experiencia {
     background-color: #fff3e0; 
 } 
@@ -128,3 +135,51 @@ table tr:nth-child(even){
 #habilidades {
     background-color: #fce4ec; 
 }
+footer{
+    background-color: #3c57cf;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 97%;   
+    border-radius: 10px;
+   
+}
+footer a{
+    color: white;
+     
+}
+form{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"], 
+select {  
+    width: 97%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size:  1em;
+}
+button[type="submit"]{
+    background-color: #3c57cf;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+
+button[type="submit"]:hover{
+    background-color: #2b2828;
+}      
+
